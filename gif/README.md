@@ -1,2 +1,2 @@
 ## First
-![image](https://github.com/JormmungandM/Android-course/tree/main/gif/FirstHomework.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/FirstHomework.gif)
