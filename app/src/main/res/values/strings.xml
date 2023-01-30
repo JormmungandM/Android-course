@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Basics</string>
+    <string name="tv_hello_text">Hello World!!!</string>
+    <string name="btn_add_text">Add exclamation</string>
 </resources>
