@@ -1,6 +1,3 @@
-## First
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/FirstHomework.gif)
-
 ## Max numbers & symbols
 ![image](https://github.com/JormmungandM/Android-course/blob/main/gif/max10numbers.gif)
 ![image](https://github.com/JormmungandM/Android-course/blob/main/gif/symbols.gif)
