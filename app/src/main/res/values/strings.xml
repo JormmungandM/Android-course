@@ -1,5 +1,38 @@
 <resources>
     <string name="app_name">Basics</string>
-    <string name="tv_hello_text">Hello World!!!</string>
-    <string name="btn_add_text">Add exclamation</string>
+
+    <!--Start Activity-->
+    <string name="tv_hello_text">Android Basics</string>
+    <string name="btn_calc_text">Calculator</string>
+    <string name="btn_exit_text">Exit</string>
+
+    <!--Calculator-->
+    <string name="btn_percent_text">%</string>
+    <string name="btn_clearE_text">CE</string>
+    <string name="btn_clear_text">C</string>
+    <string name="btn_backspace_text">\u232B</string>
+    <string name="btn_inverse_text">\u215Fx</string>
+    <string name="btn_square_text">x\u00B2</string>
+    <string name="btn_sqrt_text">\u221Ax</string>
+    <string name="btn_divide_text">\u00F7</string>
+    <string name="btn_multiply_text">x</string>
+    <string name="btn_minus_text">\u2212</string>
+    <string name="btn_plus_text">+</string>
+    <string name="btn_plusMinus_text">+/-</string>
+    <string name="btn_coma_text">,</string>
+    <string name="btn_equals_text">\uFF1D</string>
+    <string name="btn_0_text">0</string>
+    <string name="btn_1_text">1</string>
+    <string name="btn_2_text">2</string>
+    <string name="btn_3_text">3</string>
+    <string name="btn_4_text">4</string>
+    <string name="btn_5_text">5</string>
+    <string name="btn_6_text">6</string>
+    <string name="btn_7_text">7</string>
+    <string name="btn_8_text">8</string>
+    <string name="btn_9_text">9</string>
+
+    <string name="minus_sign">\u2212</string>
+    <string name="calc_division_by_zero_error">Cannot divide by zero</string>
+    <string name="calc_negative_sqrt_error">Cannot take sqrt of negative number</string>
 </resources>

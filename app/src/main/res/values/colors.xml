@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="calc_history">#878787</color>
+    <color name="calc_result">#FEFEFE</color>
+
+    <color name="calc_button_text">#FFFEFEFE</color>
+    <color name="calc_button_stroke">#FF555555</color>
+    <color name="calc_button_operation">#323232</color>
+    <color name="calc_button_digit">#3B3B3B</color>
+    <color name="calc_button_equals">#76B8EC</color>
+    <color name="calc_button_equals_pressed">#A5D0F2</color>
+    <color name="background">#202020</color>
 </resources>
