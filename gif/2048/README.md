@@ -2,11 +2,15 @@
 ![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Swipe.gif)
 
 
-## Basics operations (+, -, *, /)
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/plus.gif)
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/minus.gif)
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/Multiply.gif)
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/Devide.gif)
+## Buttons (Undo, New Game)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Undo.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/NewGame.gif)
 
-## C & CE
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/C&CE.gif)
+## Win & Lose
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Win.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Lose.gif)
+
+## Buttons (Again, Exit, Continue)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Again.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Exit.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Continue.gif)
