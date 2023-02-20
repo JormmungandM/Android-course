@@ -27,4 +27,113 @@
         <item name="android:textColor">@color/calc_button_text</item>
         <item name="android:background">@drawable/calc_operation_shape</item>
     </style>
+
+
+
+    <style name="TileBase" parent="TextAppearance.AppCompat">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Tile0" parent="TileBase">
+        <item name="android:background">@color/game_bg_0</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_0</item>
+    </style>
+    <style name="Tile2" parent="TileBase">
+        <item name="android:background">@color/game_bg_2</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_2</item>
+    </style>
+    <style name="Tile4" parent="TileBase">
+        <item name="android:background">@color/game_bg_4</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_4</item>
+    </style>
+    <style name="Tile8" parent="TileBase">
+        <item name="android:background">@color/game_bg_8</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_8</item>
+    </style>
+    <style name="Tile16" parent="TileBase">
+        <item name="android:background">@color/game_bg_16</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_16</item>
+    </style>
+    <style name="Tile32" parent="TileBase">
+        <item name="android:background">@color/game_bg_32</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_32</item>
+    </style>
+    <style name="Tile64" parent="TileBase">
+        <item name="android:background">@color/game_bg_64</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_64</item>
+    </style>
+    <style name="Tile128" parent="TileBase">
+        <item name="android:background">@color/game_bg_128</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_128</item>
+    </style>
+    <style name="Tile256" parent="TileBase">
+        <item name="android:background">@color/game_bg_256</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_256</item>
+    </style>
+    <style name="Tile512" parent="TileBase">
+        <item name="android:background">@color/game_bg_512</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/game_textColor_512</item>
+    </style>
+    <style name="Tile1024" parent="TileBase">
+        <item name="android:background">@color/game_bg_1024</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/game_textColor_1024</item>
+    </style>
+    <style name="Tile2048" parent="TileBase">
+        <item name="android:background">@color/game_bg_2048</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/game_textColor_2048</item>
+    </style>
+    <style name="Tile4096" parent="TileBase">
+        <item name="android:background">@color/game_bg_4096</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/game_textColor_4096</item>
+    </style>
+    <style name="Tile8192" parent="TileBase">
+        <item name="android:background">@color/game_bg_8192</item>
+        <item name="android:textSize">35sp</item>
+        <item name="android:textColor">@color/game_textColor_8192</item>
+    </style>
+    <style name="Tile16384" parent="TileBase">
+        <item name="android:background">@color/game_bg_16384</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/game_textColor_16384</item>
+    </style>
+    <style name="Tile32768" parent="TileBase">
+        <item name="android:background">@color/game_bg_32768</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/game_textColor_32768</item>
+    </style>
+
+
+
+
+    <!--AlertDialogCustom-->
+    <style name="AlertDialogCustom" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:background">@drawable/game_dialog_bg</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:windowTitleStyle">@style/TitleDialogTextStyle</item>
+    </style>
+
+    <style name="TitleDialogTextStyle">
+        <item name="android:textColor">#d71616</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
 </resources>

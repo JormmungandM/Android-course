@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_2048"
+    android:background="#FAF8EF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FAF8EF"
+    tools:context=".Game2048Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="2048"
+            android:textColor="#776e65"
+            android:textSize="55sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tv_score"
+                    android:layout_width="0dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/game_bg_color"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="Score\n2048" />
+
+                <TextView
+                    android:id="@+id/tv_best_score"
+                    android:layout_width="0dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/game_bg_color"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:text="Best\n2048" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/new_game_btn"
+                    android:layout_width="0dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/game_bg_color_dark"
+                    android:text="@string/btn_2048_text_newGame" />
+
+                <Button
+                    android:id="@+id/undo_btn"
+                    android:layout_width="0dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/game_bg_color_dark"
+                    android:text="@string/btn_2048_text_Undo" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:background="#A49580"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tile00"
+                style="@style/Tile0"
+                tools:text="" />
+
+            <TextView
+                android:id="@+id/tile01"
+                style="@style/Tile2"
+                tools:text="2" />
+
+            <TextView
+                android:id="@+id/tile02"
+                style="@style/Tile4"
+                tools:text="4" />
+
+            <TextView
+                android:id="@+id/tile03"
+                style="@style/Tile8"
+                tools:text="8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tile10"
+                style="@style/Tile16"
+                tools:text="16" />
+
+            <TextView
+                android:id="@+id/tile11"
+                style="@style/Tile32"
+                tools:text="32" />
+
+            <TextView
+                android:id="@+id/tile12"
+                style="@style/Tile64"
+                tools:text="64" />
+
+            <TextView
+                android:id="@+id/tile13"
+                style="@style/Tile128"
+                tools:text="128" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tile20"
+                style="@style/Tile256"
+                tools:text="256" />
+
+            <TextView
+                android:id="@+id/tile21"
+                style="@style/Tile512"
+                tools:text="512" />
+
+            <TextView
+                android:id="@+id/tile22"
+                style="@style/Tile1024"
+                tools:text="1024" />
+
+            <TextView
+                android:id="@+id/tile23"
+                style="@style/Tile2048"
+                tools:text="2048" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tile30"
+                style="@style/Tile4096"
+                tools:text="4096" />
+
+            <TextView
+                android:id="@+id/tile31"
+                style="@style/Tile8192"
+                tools:text="8192" />
+
+            <TextView
+                android:id="@+id/tile32"
+                style="@style/Tile16384"
+                tools:text="16384" />
+
+            <TextView
+                android:id="@+id/tile33"
+                style="@style/Tile32768"
+                tools:text="32768" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         findViewById(R.id.exitButton).setOnClickListener(this::exitButtonClick);
-
         findViewById(R.id.calcButton).setOnClickListener(this::calcButtonClick);
+        findViewById(R.id.game2048Button).setOnClickListener(this::game2048ButtonClick);
     }
 
     private void exitButtonClick(View v) {
@@ -25,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void calcButtonClick(View v) {
-        Intent calcIntent = new Intent(this, CalculatorActivity.class);
-        startActivity(calcIntent);
+        Intent intent = new Intent(this, CalculatorActivity.class);
+        startActivity(intent);
+    }
+
+    private void game2048ButtonClick(View v) {
+        Intent intent = new Intent(this, Game2048Activity.class);
+        startActivity(intent);
     }
 }

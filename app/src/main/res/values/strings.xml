@@ -31,8 +31,17 @@
     <string name="btn_7_text">7</string>
     <string name="btn_8_text">8</string>
     <string name="btn_9_text">9</string>
-
     <string name="minus_sign">\u2212</string>
+
+    <!--2048-->
+    <string name="btn_2048_text">Game 2048</string>
+    <string name="btn_2048_text_newGame">New Game</string>
+    <string name="btn_2048_text_Undo">Undo</string>
+    <string name="score_text">Score\n%d</string>
+    <string name="best_score_text">Best\n%d</string>
+
+
+    <!--Errors-->
     <string name="calc_division_by_zero_error">Cannot divide by zero</string>
     <string name="calc_negative_sqrt_error">Cannot take sqrt of negative number</string>
 </resources>

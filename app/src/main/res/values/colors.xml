@@ -18,4 +18,48 @@
     <color name="calc_button_equals">#76B8EC</color>
     <color name="calc_button_equals_pressed">#A5D0F2</color>
     <color name="background">#202020</color>
+
+
+
+    <color name="game_bg_color">#BCAC9E</color>
+    <color name="game_bg_color_dark">#8F7A65</color>
+    <color name="game_dialog_font">#705A44</color>
+    <color name="game_textColor_0">#BFAFA0</color>
+    <color name="game_textColor_2">#81766A</color>
+    <color name="game_textColor_4">#81766A</color>
+    <color name="game_textColor_8">#FEF1DF</color>
+    <color name="game_textColor_16">#F9F5EF</color>
+    <color name="game_textColor_32">#F9F5EF</color>
+    <color name="game_textColor_64">#F9F5EF</color>
+    <color name="game_textColor_128">#81766A</color>
+    <color name="game_textColor_256">#81766A</color>
+    <color name="game_textColor_512">#81766A</color>
+    <color name="game_textColor_1024">#81766A</color>
+    <color name="game_textColor_2048">#81766A</color>
+    <color name="game_textColor_4096">#81766A</color>
+    <color name="game_textColor_8192">#81766A</color>
+    <color name="game_textColor_16384">#81766A</color>
+    <color name="game_textColor_32768">#81766A</color>
+
+    <color name="game_bg_0">#BFAFA0</color>
+    <color name="game_bg_2">#ECE2CA</color>
+    <color name="game_bg_4">#ECE2CA</color>
+    <color name="game_bg_8">#F3B27F</color>
+    <color name="game_bg_16">#F69D6C</color>
+    <color name="game_bg_32">#F67C5F</color>
+    <color name="game_bg_64">#F65E3B</color>
+    <color name="game_bg_128">#EDCF72</color>
+    <color name="game_bg_256">#EDCC61</color>
+    <color name="game_bg_512">#EDC850</color>
+    <color name="game_bg_1024">#EDC53F</color>
+    <color name="game_bg_2048">#EDC22E</color>
+    <color name="game_bg_4096">#CAED2E</color>
+    <color name="game_bg_8192">#B4DC28</color>
+    <color name="game_bg_16384">#2DE0E6</color>
+    <color name="game_bg_32768">#28C8D2</color>
+
+
+
+
+
 </resources>
