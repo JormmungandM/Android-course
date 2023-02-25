@@ -7,8 +7,8 @@
 ![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/NewGame.gif)
 
 ## Win & Lose
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Win.gif)
-![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Lose.gif)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Win.png)
+![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Lose.png)
 
 ## Buttons (Again, Exit, Continue)
 ![image](https://github.com/JormmungandM/Android-course/blob/main/gif/2048/Again.gif)

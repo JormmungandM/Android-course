@@ -50,6 +50,25 @@
             android:text="@string/btn_2048_text" />
 
         <Button
+            android:id="@+id/ratesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/btn_rates_text" />
+
+        <Button
+            android:id="@+id/chatButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="25dp"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="@string/btn_chat_text" />
+
+
+        <Button
             android:id="@+id/exitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

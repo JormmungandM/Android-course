@@ -58,8 +58,9 @@
     <color name="game_bg_16384">#2DE0E6</color>
     <color name="game_bg_32768">#28C8D2</color>
 
+    <color name="rate_bg_color">#418DFC</color>
+    <color name="rate_bg_odd_color">#EBECEE</color>
 
-
-
-
+    <color name="message_bg_color">#418DFC</color>
+    <color name="income_message_bg_color">#EBECEE</color>
 </resources>
